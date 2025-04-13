@@ -1,0 +1,158 @@
+{
+    "intents": [
+        {
+            "tag": "billing_questions",
+            "patterns": [
+                "How can I pay for my order?"
+            ],
+            "responses": [
+                "You can pay using credit/debit cards, PayPal, or mobile money.",
+                "We accept all major payment methods including Visa, MasterCard, and PayPal.",
+                "Payments can be made at checkout using your preferred method."
+            ]
+        },
+        {
+            "tag": "billing_questions",
+            "patterns": [
+                "Why was my payment declined?"
+            ],
+            "responses": [
+                "Your payment may have been declined due to insufficient funds or incorrect billing details.",
+                "Please check if your card has expired or if your bank blocked the transaction.",
+                "Try using an alternative payment method or contact your bank for clarification."
+            ]
+        },
+        {
+            "tag": "billing_questions",
+            "patterns": [
+                "Can I get an invoice for my order?"
+            ],
+            "responses": [
+                "Yes, you can download your invoice from your order history page.",
+                "We automatically send invoices to your email after a successful purchase.",
+                "If you didn't receive it, please contact support and we'll resend it."
+            ]
+        },
+        {
+            "tag": "billing_questions",
+            "patterns": [
+                "Do you offer refunds?"
+            ],
+            "responses": [
+                "Yes, we offer refunds according to our refund policy.",
+                "You can request a refund within 14 days of purchase.",
+                "If eligible, your refund will be processed within 5-7 business days."
+            ]
+        },
+        {
+            "tag": "shipping_questions",
+            "patterns": [
+                "Are there any hidden charges?"
+            ],
+            "responses": [
+                "No, all charges are clearly displayed at checkout.",
+                "We believe in full transparency, so you\u2019ll never encounter hidden fees.",
+                "Taxes and shipping fees are included in your total order summary."
+            ]
+        },
+        {
+            "tag": "shipping_questions",
+            "patterns": [
+                "How long does delivery take?"
+            ],
+            "responses": [
+                "Standard shipping takes 3\u20137 business days.",
+                "Express shipping is available and takes 1\u20133 days.",
+                "Delivery time may vary based on your location."
+            ]
+        },
+        {
+            "tag": "shipping_questions",
+            "patterns": [
+                "How can I track my order?"
+            ],
+            "responses": [
+                "Once your order ships, we\u2019ll send you a tracking link via email.",
+                "You can track your order in your account under 'My Orders.'",
+                "Use the tracking number provided to check delivery status on the courier\u2019s website."
+            ]
+        },
+        {
+            "tag": "shipping_questions",
+            "patterns": [
+                "Do you offer international shipping?"
+            ],
+            "responses": [
+                "Yes, we ship internationally. Shipping costs and delivery times vary depending on the destination.",
+                "We offer international shipping to most countries.",
+                "Shipping charges and times will be calculated at checkout."
+            ]
+        },
+        {
+            "tag": "shipping_questions",
+            "patterns": [
+                "What happens if my package is lost?"
+            ],
+            "responses": [
+                "If your package is lost, contact our support immediately for assistance.",
+                "We\u2019ll investigate and either resend the order or issue a refund.",
+                "Lost packages are rare, and we ensure secure tracking on all shipments."
+            ]
+        },
+        {
+            "tag": "technical_support_questions",
+            "patterns": [
+                "Can I change my delivery address after placing an order?"
+            ],
+            "responses": [
+                "Yes, but only if your order hasn't shipped yet.",
+                "Please contact us as soon as possible to update your address.",
+                "Once shipped, address changes are not guaranteed."
+            ]
+        },
+        {
+            "tag": "technical_support_questions",
+            "patterns": [
+                "I can't log into my account, what should I do?"
+            ],
+            "responses": [
+                "Try resetting your password using the 'Forgot Password' link.",
+                "Make sure your email and password are entered correctly.",
+                "Contact support if you\u2019re still unable to log in."
+            ]
+        },
+        {
+            "tag": "technical_support_questions",
+            "patterns": [
+                "The website is not loading properly, what could be wrong?"
+            ],
+            "responses": [
+                "Try clearing your browser cache and cookies.",
+                "Check your internet connection or try a different browser.",
+                "If the issue persists, let us know and we'll look into it."
+            ]
+        },
+        {
+            "tag": "technical_support_questions",
+            "patterns": [
+                "My discount code isn\u2019t working."
+            ],
+            "responses": [
+                "Ensure the code hasn\u2019t expired and meets the promotion conditions.",
+                "Promo codes are case-sensitive and may have usage limits.",
+                "Contact support for further assistance with applying discounts."
+            ]
+        },
+        {
+            "tag": "technical_support_questions",
+            "patterns": [
+                "I didn\u2019t receive a confirmation email."
+            ],
+            "responses": [
+                "Check your spam or junk folder.",
+                "If it\u2019s not there, ensure you entered the correct email during checkout.",
+                "Let us know and we\u2019ll resend your confirmation."
+            ]
+        }
+    ]
+}
